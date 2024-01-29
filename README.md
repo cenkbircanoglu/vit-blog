@@ -1,6 +1,6 @@
 ## Step by step Implementation of Vision Transformers in PyTorch
 
-In this notebook, I systematically implemented the stages of the Vision Transformers (ViT) model, combining them to construct the entire ViT architecture. The figure above, sourced from the original ViT paper titled "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" (ICLR 2021), illustrates crucial components like image patches, positional embeddings, learnable class embeddings, linear projection, multi-head attention, and MLP head.
+In this [notebook](vision_transformer.ipynb), I systematically implemented the stages of the Vision Transformers (ViT) model, combining them to construct the entire ViT architecture. The figure above, sourced from the original ViT paper titled "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" (ICLR 2021), illustrates crucial components like image patches, positional embeddings, learnable class embeddings, linear projection, multi-head attention, and MLP head.
 <div style="text-align:center">
     <img src='./images/vit_overall.png' width=90% height=90%/>
 </div>
@@ -509,8 +509,3 @@ print(vit_output.shape)
 
     torch.Size([2, 10])
 
-
-
-```python
-
-```
