@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vit"
+version = "0.1.0"
+description = ""
+authors = ["Cenk Bircnaoglu <cenk.bircanoglu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+torch = "^2.1.2"
+torchvision = "^0.16.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
